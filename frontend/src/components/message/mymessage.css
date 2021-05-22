@@ -1,0 +1,29 @@
+.mymessage{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.chatDymekMainImage{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mymessageDymek{
+  margin-left: 40px;
+  width: 20vw;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 0px 8px 20px -13px rgba(0, 0, 0, 0.144);
+  box-shadow: 0px 8px 20px -13px rgba(0, 0, 0, 0.37);
+}
+.timeSendDymek{
+  font-size: 11px;
+  color: gray;
+  margin-left:20px;
+
+}

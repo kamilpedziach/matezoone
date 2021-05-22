@@ -1,0 +1,49 @@
+.conversation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
+  width: calc(80% - 29px);
+  margin-left: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.conversation:hover{
+  background-color: rgb(235, 235, 235);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.conversationImg{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.conversationName{
+  font-size: 20px;
+  cursor: pointer;
+}
+.ImageandTextMessengerBottom{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+.comingMessageNotificationBottom{
+  margin-right: 5px;
+}
+.redDotTimeBottom{
+  font-size: 10px;
+}
+
+.greenDotActive{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: limegreen;
+  top: 45px;
+  left: 50px;
+}

@@ -1,0 +1,169 @@
+.topbarContainer{
+  height: 50px;
+  width: 100%;
+  background-color: #FA3432;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.topbarLeft{
+  flex: 3;
+}
+.logo{
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+}
+.logoLink{
+  text-decoration: none;
+}
+.topbarCenter{
+  flex: 5;
+}
+.searchbar{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  position: relative;
+}
+.searchIcon{
+  font-size: 20px !important;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.searchInput{
+  border: none;
+  width: 70%;
+}
+.searchInput:focus{
+  outline: none;
+}
+
+.topbarRight{
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.topbarRightAvatarAndText{
+  display: flex;
+  align-items: center;
+}
+.topbarRightAvatarAndText:hover{
+  display: flex;
+  align-items: center;
+}
+.topbarLink{
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.topbarIcons{
+  display: flex;
+}
+.topbarRightImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.topbarIconItem{
+  margin-right: 15px;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.topbarIconCount{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  color:black;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+.topbarRightName{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.profileImageLinkText{
+  color: white;
+  text-decoration: none;
+}
+
+.exit{
+  display: none;
+}
+
+.popup{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 5;
+  position: fixed;
+}
+
+.popupWrapper{
+  overflow-y: scroll;
+  height: 400px;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  z-index: 99;
+}
+
+.imgSearchTopBar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.liTopBarSearch{
+  width: calc(100% - 20px);
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.liTopBarSearch:hover{
+  background-color: rgb(233, 233, 233);
+}
+
+.divSearchTopBar{
+  display: flex;
+  flex-direction: column;
+}
+
+.citySpanSearchTopBar{
+  color: gray;
+}
+
+.linkSearchTopBar{
+  text-decoration: none;
+}
+
+.spanSearchTopBar{
+  color: black
+}

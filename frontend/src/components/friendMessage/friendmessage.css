@@ -1,0 +1,45 @@
+.friendmessage{
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: -111;
+}
+.friendchatDymekImage{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friendmessageDymek{
+  margin-right: 40px;
+  width: 20vw;
+  background-color: rgb(61, 61, 61);
+  color:white;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: 0px 8px 20px -13px rgba(0, 0, 0, 0.144);
+  box-shadow: 0px 8px 20px -13px rgba(0, 0, 0, 0.37);
+}
+.timeSendDymek{
+  font-size: 11px;
+  color: gray;
+  margin-right:20px;
+  margin-top: 30px;
+}
+.movetotheleft{
+  width: 100%;
+}
+.spanAndImageDymekFriend{
+  display: flex;
+
+}
+.flexTimeSendandImg{
+  display: flex;
+
+}
