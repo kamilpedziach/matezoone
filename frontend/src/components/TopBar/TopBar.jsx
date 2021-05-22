@@ -77,7 +77,13 @@ const App = () => {
         <div className="topbarRight">
           <div className="topbarLinks">
             <span className="topbarLink">Homepage</span>
-            <span className="topbarLink">Timeline</span>
+            <Link
+              to="/messenger"
+              className="logoLink"
+              style={{ color: "white" }}
+            >
+              <span className="topbarLink">Messenger</span>
+            </Link>
           </div>
           <div className="topbarIcons">{/* you can add notifications */}</div>
           <div className="topbarRightAvatarAndText">
